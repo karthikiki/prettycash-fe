@@ -1,13 +1,86 @@
-body {
+*{
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+.content{
+  height: 80vh;
+
+}
+.btn{
+text-align: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar{
+  background-color: whitesmoke!important;
+}
+.register-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+
+.filters{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  box-shadow:rgba(149, 157, 165, 0.2) 0px 8px 24px;;
+}
+.anticon svg{
+  font-size: 25px;
+  cursor: pointer;
+}
+.active-icon{
+  color: black
+}
+.inactive-icon{
+  color:gray
+}
+.switch-icons{
+  border: 1px solid rgb(209, 209, 209);
+  border-radius: 6px;
+  padding: 4px;
+}
+.card{
+  padding: 10px;
+}
+.navbar-brand{
+  font-weight: 600;
+
+}
+.username{
+  font-weight: 600;
+  padding: 5px;
+  margin-right: 3rem;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;          
+}
+.analysis{
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  text-align: center;
+  padding-top: 5rem;
+}
+.register-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+.register-page{
+  height: 80vh;
+}
+.pages{
+  text-decoration: none;
+  margin-right: 5px;
+  margin-top: 6px;
+  color: rgb(52, 126, 199);
 }
